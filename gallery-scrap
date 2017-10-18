@@ -1,0 +1,698 @@
+gallery
+
+
+
+<div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Section Heading Start -->
+                            <div class="section_heading">
+                                <h4 class="subheading">Past Transactions</h4>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <div class="gallery_menu">
+            <div class="text-center portfolio-menu">
+                <button class="btn btn-md active" type="button" data-filter=".yellowstone-springs">Yellowstone Springs</button>
+                <button class="btn btn-md" type="button" data-filter=".bigsprings">Big Springs</button>
+                <button class="btn btn-md inactive" type="button" data-filter=".fintail">Fintail</button>
+                <button class="btn btn-md" type="button" data-filter=".jefferson">Jefferson Island</button>
+                <button class="btn btn-md" type="button" data-filter=".madison">Madison</button>
+                <button class="btn btn-md" type="button" data-filter=".riverwhy">River Why</button>
+                <button class="btn btn-md" type="button" data-filter=".steelcreek">Steel Creek</button>
+                <button class="btn btn-md" type="button" data-filter=".summit">Summit</button>
+                <button class="btn btn-md" type="button" data-filter=".tarryall">Tarryall</button>
+                <button class="btn btn-md" type="button" data-filter=".clover">Clover Valley</button>
+                <button class="btn btn-md" type="button" data-filter=".littlewood">Little Wood</button>
+            </div>
+        </div>
+
+        <div class="gallery_full_width_images_area clearfix">
+
+            <div class="single_gallery_item yellowstone-springs">
+                <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/front-porch-views.jpg">
+                    <img src="img/gallery/yellowstone-springs-ranch-montana/front-porch-views.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item yellowstone-springs">
+                <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/river-on-property.jpg">
+                    <img src="img/gallery/yellowstone-springs-ranch-montana/river-on-property.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item yellowstone-springs">
+                <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/mountain-views.jpg">
+                    <img src="img/gallery/yellowstone-springs-ranch-montana/mountain-views.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item yellowstone-springs">
+                <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/pond-near-house.jpg">
+                    <img src="img/gallery/yellowstone-springs-ranch-montana/pond-near-house.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item yellowstone-springs">
+                <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/pond-with-mountains.jpg">
+                    <img src="img/gallery/yellowstone-springs-ranch-montana/pond-with-mountains.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item yellowstone-springs">
+                <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/pond-with-swans.jpg">
+                    <img src="img/gallery/yellowstone-springs-ranch-montana/pond-with-swans.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item yellowstone-springs">
+                <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/river-on-property.jpg">
+                    <img src="img/gallery/yellowstone-springs-ranch-montana/river-on-property.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item yellowstone-springs">
+                <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/sunset-over-hills.jpg">
+                    <img src="img/gallery/yellowstone-springs-ranch-montana/sunset-over-hills.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item yellowstone-springs">
+                <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/swans-on-marsh.jpg">
+                    <img src="img/gallery/yellowstone-springs-ranch-montana/swans-on-marsh.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item yellowstone-springs">
+                <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/wildlife.jpg">
+                    <img src="img/gallery/yellowstone-springs-ranch-montana/wildlife.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item bigsprings">
+                <a class="gallery_img bigsprings" href="img/gallery/big-springs-idaho-river.jpg">
+                    <img src="img/gallery/big-springs-idaho-river.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item bigsprings">
+                <a class="gallery_img bigsprings" href="img/gallery/big-springs-idaho-prarie.jpg">
+                    <img src="img/gallery/big-springs-idaho-prarie.jpg" alt="Prarie in Big Springs">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item bigsprings">
+                <a class="gallery_img bigsprings" href="img/gallery/big-springs-idaho-mountains.jpg">
+                    <img src="img/gallery/big-springs-idaho-mountains.jpg" alt="Mountains above the ranch">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item bigsprings">
+                <a class="gallery_img bigsprings" href="img/gallery/big-springs-idaho-sunset.jpg">
+                    <img src="img/gallery/big-springs-idaho-sunset.jpg" alt="Idaho sunset">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item bigsprings">
+                <a class="gallery_img bigsprings" href="img/gallery/big-springs-idaho-wildlife.jpg">
+                    <img src="img/gallery/big-springs-idaho-river.jpg" alt="Owl in tree">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item fintail">
+                <a class="gallery_img fintail" href="img/gallery/fintail-ranch-montana-pheasants.jpg">
+                    <img src="img/gallery/fintail-ranch-montana-pheasants.jpg" alt="Pheasants on Fintail Ranch">
+                </a>    
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item fintail">
+                <a class="gallery_img fintail" href="img/gallery/fintail-ranch-montana-river.jpg">
+                    <img src="img/gallery/fintail-ranch-montana-river.jpg" alt="River from the air">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item fintail">
+                <a class="gallery_img fintail" href="img/gallery/fintail-ranch-montana-scenic.jpg">
+                    <img src="img/gallery/fintail-ranch-montana-scenic.jpg" alt="">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item fintail">
+                <a class="gallery_img fintail" href="img/gallery/fintail-ranch-montana-wetlands.jpg">
+                    <img src="img/gallery/fintail-ranch-montana-wetlands.jpg" alt="">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item fintail">
+                <a class="gallery_img fintail" href="img/gallery/fintail-ranch-montana-trout-fishing.jpg">
+                    <img src="img/gallery/fintail-ranch-montana-trout-fishing.jpg" alt="Trout Fishing">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item tarryall">
+                <a class="gallery_img tarryall" href="img/gallery/tarryall-creek-ranch-colorado/campfire.jpg">
+                    <img src="img/gallery/tarryall-creek-ranch-colorado/campfire.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item tarryall">
+                <a class="gallery_img tarryall" href="img/gallery/tarryall-creek-ranch-colorado/biking-through-field.jpg">
+                    <img src="img/gallery/tarryall-creek-ranch-colorado/biking-through-field.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item tarryall">
+                <a class="gallery_img tarryall" href="img/gallery/tarryall-creek-ranch-colorado/creekside.jpg">
+                    <img src="img/gallery/tarryall-creek-ranch-colorado/creekside.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item tarryall">
+                <a class="gallery_img tarryall" href="img/gallery/tarryall-creek-ranch-colorado/elk-below-mountains.jpg">
+                    <img src="img/gallery/tarryall-creek-ranch-colorado/elk-below-mountains.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item tarryall">
+                <a class="gallery_img tarryall" href="img/gallery/tarryall-creek-ranch-colorado/elk-in-meadow.jpg">
+                    <img src="img/gallery/tarryall-creek-ranch-colorado/elk-in-meadow.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item tarryall">
+                <a class="gallery_img tarryall" href="img/gallery/tarryall-creek-ranch-colorado/stormy-skies.jpg">
+                    <img src="img/gallery/tarryall-creek-ranch-colorado/stormy-skies.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item tarryall">
+                <a class="gallery_img tarryall" href="img/gallery/tarryall-creek-ranch-colorado/trout-in-creek.jpg">
+                    <img src="img/gallery/tarryall-creek-ranch-colorado/trout-in-creek.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item riverwhy">
+                <a class="gallery_img riverwhy" href="img/gallery/river-why-ranch-montana/trout-catch.jpg">
+                    <img src="img/gallery/river-why-ranch-montana/trout-catch.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item riverwhy">
+                <a class="gallery_img riverwhy" href="img/gallery/river-why-ranch-montana/stream-flyfishing.jpg">
+                    <img src="img/gallery/river-why-ranch-montana/stream-flyfishing.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item riverwhy">
+                <a class="gallery_img riverwhy" href="img/gallery/river-why-ranch-montana/river-trout.jpg">
+                    <img src="img/gallery/river-why-ranch-montana/river-trout.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item riverwhy">
+                <a class="gallery_img riverwhy" href="img/gallery/river-why-ranch-montana/rainbow-trout.jpg">
+                    <img src="img/gallery/river-why-ranch-montana/rainbow-trout.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item riverwhy">
+                <a class="gallery_img riverwhy" href="img/gallery/river-why-ranch-montana/horses.jpg">
+                    <img src="img/gallery/river-why-ranch-montana/horses.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item riverwhy">
+                <a class="gallery_img riverwhy" href="img/gallery/river-why-ranch-montana/flyfishing-on-bank.jpg">
+                    <img src="img/gallery/river-why-ranch-montana/flyfishing-on-bank.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item riverwhy">
+                <a class="gallery_img riverwhy" href="img/gallery/river-why-ranch-montana/antelope.jpg">
+                    <img src="img/gallery/river-why-ranch-montana/antelope.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item steelcreek">
+                <a class="gallery_img steelcreek" href="img/gallery/steel-creek-ranch-montana/hills-at-sunset.jpg">
+                    <img src="img/gallery/steel-creek-ranch-montana/hills-at-sunset.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item steelcreek">
+                <a class="gallery_img steelcreek" href="img/gallery/steel-creek-ranch-montana/horseback-riding.jpg">
+                    <img src="img/gallery/steel-creek-ranch-montana/horseback-riding.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item steelcreek">
+                <a class="gallery_img steelcreek" href="img/gallery/steel-creek-ranch-montana/horses-in-field.jpg">
+                    <img src="img/gallery/steel-creek-ranch-montana/horses-in-field.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item steelcreek">
+                <a class="gallery_img steelcreek" href="img/gallery/steel-creek-ranch-montana/pond-with-fog.jpg">
+                    <img src="img/gallery/steel-creek-ranch-montana/pond-with-fog.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item steelcreek">
+                <a class="gallery_img steelcreek" href="img/gallery/steel-creek-ranch-montana/reflection-pond.jpg">
+                    <img src="img/gallery/steel-creek-ranch-montana/reflection-pond.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item steelcreek">
+                <a class="gallery_img steelcreek" href="img/gallery/steel-creek-ranch-montana/stream-behind-property.jpg">
+                    <img src="img/gallery/steel-creek-ranch-montana/stream-behind-property.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item steelcreek">
+                <a class="gallery_img steelcreek" href="img/gallery/steel-creek-ranch-montana/view-along-fenceline.jpg">
+                    <img src="img/gallery/steel-creek-ranch-montana/view-along-fenceline.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item steelcreek">
+                <a class="gallery_img steelcreek" href="img/gallery/steel-creek-ranch-montana/wildflowers.jpg">
+                    <img src="img/gallery/steel-creek-ranch-montana/wildflowers.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item summit">
+                <a class="gallery_img summit" href="img/gallery/summit-springs-ranch-idaho/boots-on-porch.jpg">
+                    <img src="img/gallery/summit-springs-ranch-idaho/boots-on-porch.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item summit">
+                <a class="gallery_img summit" href="img/gallery/summit-springs-ranch-idaho/flyfishing-from-bank.jpg">
+                    <img src="img/gallery/summit-springs-ranch-idaho/flyfishing-from-bank.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item summit">
+                <a class="gallery_img summit" href="img/gallery/summit-springs-ranch-idaho/geese-in-pond.jpg">
+                    <img src="img/gallery/summit-springs-ranch-idaho/geese-in-pond.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item summit">
+                <a class="gallery_img summit" href="img/gallery/summit-springs-ranch-idaho/mountain-sunset.jpg">
+                    <img src="img/gallery/summit-springs-ranch-idaho/mountain-sunset.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item summit">
+                <a class="gallery_img summit" href="img/gallery/summit-springs-ranch-idaho/mountain-view.jpg">
+                    <img src="img/gallery/summit-springs-ranch-idaho/mountain-view.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item summit">
+                <a class="gallery_img summit" href="img/gallery/summit-springs-ranch-idaho/pharalopes-on-pond.jpg">
+                    <img src="img/gallery/summit-springs-ranch-idaho/pharalopes-on-pond.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item summit">
+                <a class="gallery_img summit" href="img/gallery/summit-springs-ranch-idaho/pond-at-sunset.jpg">
+                    <img src="img/gallery/summit-springs-ranch-idaho/pond-at-sunset.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item summit">
+                <a class="gallery_img summit" href="img/gallery/summit-springs-ranch-idaho/stream-on-property.jpg">
+                    <img src="img/gallery/summit-springs-ranch-idaho/stream-on-property.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item summit">
+                <a class="gallery_img summit" href="img/gallery/summit-springs-ranch-idaho/trout.jpg">
+                    <img src="img/gallery/summit-springs-ranch-idaho/trout.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item summit">
+                <a class="gallery_img summit" href="img/gallery/summit-springs-ranch-idaho/turner-fitch.jpg">
+                    <img src="img/gallery/summit-springs-ranch-idaho/turner-fitch.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/owl.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/owl.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/sheep.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/sheep.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/storm.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/storm.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/stream.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/stream.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/stream-behind-property.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/stream-behind-property.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/stream-fishing.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/stream-fishing.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/sunset-stream.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/sunset-stream.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/turkey.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/turkey.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/turkeys.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/turkeys.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/view-over-pond.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/view-over-pond.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/waterfowl.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/waterfowl.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/beauty-trout.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/beauty-trout.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/bird.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/bird.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/birds-near-wetlands.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/birds-near-wetlands.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/bobcat-in-tree.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/bobcat-in-tree.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/deer.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/deer.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/fisherman.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/fisherman.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/flock-of-birds.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/flock-of-birds.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/herding-sheep.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/herding-sheep.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/homes-on-property.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/homes-on-property.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/moose.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/moose.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/mountains-above-property.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/mountains-above-property.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/wetlands.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/wetlands.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item jefferson">
+                <a class="gallery_img jefferson" href="img/gallery/jefferson-island-ranch-montana/wetlands2.jpg">
+                    <img src="img/gallery/jefferson-island-ranch-montana/wetlands2.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/bald-eagles.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/bald-eagles.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/beautiful-trout.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/beautiful-trout.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/ducks.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/ducks.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/fawn.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/fawn.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/fishing-on-stream.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/fishing-on-stream.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/goose.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/goose.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/house-at-sunset.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/house-at-sunset.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/hunting.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/hunting.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/mountain-view.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/mountain-view.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/river-aerial-view.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/river-aerial-view.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/sunset-fishing.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/sunset-fishing.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/sunset-mountain-vista.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/sunset-mountain-vista.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/tackle-box.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/tackle-box.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/wading-at-sunset.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/wading-at-sunset.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item madison">
+                <a class="gallery_img madison" href="img/gallery/madison-spring-creeks-ranch-montana/wetlands.jpg">
+                    <img src="img/gallery/madison-spring-creeks-ranch-montana/wetlands.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item clover">
+                <a class="gallery_img clover" href="img/gallery/clover-valley-ranch-california/clover-valley-scenic.jpg">
+                    <img src="img/gallery/clover-valley-ranch-california/clover-valley-scenic.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item clover">
+                <a class="gallery_img clover" href="img/gallery/clover-valley-ranch-california/clover-valley-sunset.jpg">
+                    <img src="img/gallery/clover-valley-ranch-california/clover-valley-sunset.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item littlewood">
+                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/family-walk.jpg">
+                    <img src="img/gallery/little-wood-headwaters-ranch-idaho/family-walk.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item littlewood">
+                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/hunting-with-dog.jpg">
+                    <img src="img/gallery/little-wood-headwaters-ranch-idaho/hunting-with-dog.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item littlewood">
+                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/mountain-scenic.jpg">
+                    <img src="img/gallery/little-wood-headwaters-ranch-idaho/mountain-scenic.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item littlewood">
+                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/trout-on-hook.jpg">
+                    <img src="img/gallery/little-wood-headwaters-ranch-idaho/trout-on-hook.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item littlewood">
+                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/valley-view.jpg">
+                    <img src="img/gallery/little-wood-headwaters-ranch-idaho/valley-view.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item littlewood">
+                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/wildflowers.jpg">
+                    <img src="img/gallery/little-wood-headwaters-ranch-idaho/wildflowers.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="single_gallery_item littlewood">
+                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/winter-frost.jpg">
+                    <img src="img/gallery/little-wood-headwaters-ranch-idaho/winter-frost.jpg" alt="River through Big Springs in Idaho">
+                </a>
+            </div>
+        </div>
+
+
+        
+.footer_area {
+    position: relative;
+    z-index: 1;
+}
+
+.footer_bottom_area {
+    background-color: #111;
+}
+
+.footer_bottom {
+    padding: 30px 0 50px 0;
+    text-align: center;
+}
+
+.footer_bottom p {
+    margin: 0;
+    color: #fff;
+}
+
+.footer_bottom p>a {
+    color: #fff;
+}
+
+.footer_bottom p>i,
+.footer_bottom p>a:hover {
+    color: #27ae60;
+}
+
+.social_links_area {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
