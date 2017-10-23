@@ -421,12 +421,12 @@ img {
     margin-bottom: 50px;
     position: relative;
     z-index: 1;
-    text-align: center;
 }
 
-.section_heading>h3 {
+.section_heading>h2 {
     color: #5F7183;
-    margin-bottom: 0;
+    margin-bottom: 50px;
+    text-align: center;
     text-transform: capitalize;
     font-weight: 500;
     font-family:'Playfair Display SC', serif;
@@ -599,7 +599,7 @@ img {
 
 .welcome_area {
     overflow: hidden;
-    background: url('../img/slider4.jpg') no-repeat center center fixed;
+    background: url('../img/yellowstone-overlook.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1003,7 +1003,8 @@ button.close {
 }
 
 .service_details_thumb {
-    border: 1px solid #f6f6f6;
+    border: 1px solid #fff;
+    background:#fff;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 2px;
@@ -1011,7 +1012,7 @@ button.close {
 }
 
 .single_part_content {
-    padding: 30px 0 0;
+    /*padding: 30px 0 0;*/
 }
 
 .single_part_content h3 {
@@ -1388,6 +1389,14 @@ ol.breadcrumb {
     z-index: 1;
     overflow: hidden;
 }
+.single_gallery_item.current {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
 
 .column_single_gallery_item {
     position: relative;
@@ -1454,7 +1463,7 @@ ol.breadcrumb {
 }
 
 .gallery_info h5 {
-    color: #27ae60;
+    color: #2c3e50;
     display: inline-block;
     margin-bottom: 5px;
     text-transform: capitalize;
@@ -1465,6 +1474,8 @@ ol.breadcrumb {
 .gallery_info p {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .single_gallery_item_info .headline>h5 {
@@ -1483,13 +1494,11 @@ ol.breadcrumb {
 }
 
 .gallery_info .more_details>a {
-    border: 1px solid #2c3e50;
     margin: 0;
 }
 
 .gallery_info .more_details>a:hover {
-    border: 1px solid transparent;
-    background-color: #27ae60;
+    background-color: #5F7183;
     color: #fff;
 }
 
@@ -1557,6 +1566,7 @@ ol.breadcrumb {
 .contact_input_area .form-group select,
 .contact_input_area .form-group textarea {
     font-family: 'Dosis', serif;
+    background: #f6f6f6;
     border: 1px solid #ddd;
     margin-bottom: 30px;
     padding: 15px 20px;
@@ -1689,8 +1699,8 @@ select option {
 .modal_head {
     padding-bottom": 15px;
 }
-.brokerage {
-    padding-bottom: 20px;
+#pastprojects {
+    background: #f6f6f6;
 }
 .card-block {
     padding:10px;
@@ -1711,11 +1721,13 @@ select option {
 .btn-primary {
     background: #2c3e50;
     border-radius: 0;
+    border: none;
 }
 .btn-primary:hover,
 .btn-primary:focus {
     background:#5F7183;
     border-color: 1px solid #5F7183;
+    box-shadow:none;
 }
  .navbar {
   min-height: 80px;
@@ -1798,7 +1810,7 @@ select option {
     }
     .welcome_area {
     overflow: hidden;
-    background: url('../img/slider4-mobile.jpg') no-repeat center center;
+    background: url('../img/yellowstone-overlook-mobile.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1838,4 +1850,38 @@ select option {
 
 .white {
     color:#fff;
+}
+
+@media (min-width: 1920px) {
+    .welcome_area {
+    overflow: hidden;
+    background: url('../img/yellowstone-overlook-xl.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+}
+
+.modal-postcard {
+    padding-top: 15px;
+    font-weight: 700;
+}
+.overlay-p {
+    padding-left:20px;
+    padding-right:20px;
+}
+.pad-30 {
+    margin-bottom: 30px;
+}
+.close-button {
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.center {
+    text-align: center;
+}
+#team {
+    background: #f6f6f6;
 }

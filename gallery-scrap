@@ -696,3 +696,81 @@ gallery
     position: relative;
     z-index: 1;
 }
+
+-------------------------
+current projects
+
+<div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="single_service">
+                        <!-- Single Service image -->
+                        <div class="single_service_img">
+                            <img src="img/teton-timbers-current-card.jpg" alt="">
+                        </div>
+                        <!-- Single Service title -->
+                        <div class="single_service_title">
+                            <h5>Teton Timbers</h5>
+                            <hr class="card-hr">
+                        </div>
+                        <!-- Single Service content -->
+                        <div class="single_service_content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, illo esse nisi dignissimos laboriosam officiis. Aliquid corporis amet.</p>
+                            <a href="http://www.yellowstonebasin.com" class="btn btn-primary"target="_blank">Visit Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="single_service">
+                        <!-- Single Service image -->
+                        <div class="single_service_img">
+                            <img src="img/trails-end-current-card.jpg" alt="">
+                        </div>
+                        <!-- Single Service title -->
+                        <div class="single_service_title">
+                            <h5>Trails End</h5>
+                            <hr class="card-hr">
+                        </div>
+                        <!-- Single Service content -->
+                        <div class="single_service_content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, illo esse nisi dignissimos laboriosam officiis. Aliquid corporis amet.</p>
+                            <a href="http://www.yellowstonebasin.com" class="btn btn-primary"target="_blank">Visit Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="single_service">
+                        <!-- Single Service image -->
+                        <div class="single_service_img">
+                            <img src="img/yellowstone-basin-current-card.jpg" alt="">
+                        </div>
+                        <!-- Single Service title -->
+                        <div class="single_service_title">
+                            <h5>Yellowstone Basin</h5>
+                            <hr class="card-hr">
+                        </div>
+                        <!-- Single Service content -->
+                        <div class="single_service_content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, illo esse nisi dignissimos laboriosam officiis. Aliquid corporis amet.</p>
+                            <a href="http://www.yellowstonebasin.com" class="btn btn-primary"target="_blank">Visit Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="single_service">
+                        <!-- Single Service image -->
+                        <div class="single_service_img">
+                            <img src="img/yellowstone-preserve-current-card.jpg" alt="">
+                        </div>
+                        <!-- Single Service title -->
+                        <div class="single_service_title">
+                            <h5>Yellowstone Preserve</h5>
+                        </div>
+                        <hr class="card-hr">
+                        <!-- Single Service content -->
+                        <div class="single_service_content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, illo esse nisi dignissimos laboriosam officiis. Aliquid corporis amet.</p>
+                            <a href="http://www.yellowstonebasin.com" class="btn btn-primary"target="_blank">Visit Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>

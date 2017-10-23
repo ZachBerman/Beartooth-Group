@@ -60,7 +60,7 @@
 
     // Magnific-popup Video Active Code
     if ($.fn.magnificPopup) {
-        $('.video_btn').magnificPopup({
+        $('.video_btn,.vid_btn').magnificPopup({
             disableOn: 0,
             type: 'iframe',
             mainClass: 'mfp-fade',
@@ -158,7 +158,7 @@
         var $grid = $('.gallery_full_width_images_area, .portfolio-column, .blog-masonary').isotope({
             itemSelector: '.single_gallery_item, .column_single_gallery_item, .sb_masonary_item',
             percentPosition: true,
-            filter: '.bigsprings',
+            filter: '.yellowstone-springs',
             masonry: {
                 columnWidth: '.single_gallery_item, .column_single_gallery_item, .sb_masonary_item'
             }
