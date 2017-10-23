@@ -1441,7 +1441,9 @@ ol.breadcrumb {
 }
 
 .single_gallery_item:hover .hover_overlay,
-.column_single_gallery_item:hover .hover_overlay {
+.column_single_gallery_item:hover .hover_overlay,
+.single_gallery_item:active .hover_overlay,
+.column_single_gallery_item:active .hover_overlay {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
