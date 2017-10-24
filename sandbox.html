@@ -8,6 +8,8 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display+SC" rel="stylesheet">
 
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -19,7 +21,7 @@
   <body>
 
 <button type="button" id="something" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-url="test.html">
-  Launch demo modal
+  Launch demo modal 1
 </button>
 
 <button type="button" id="something" class="btn btn-primary" data-toggle="modal" data-target="#myModal2" data-url="test2.html">
@@ -31,17 +33,12 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Jefferson Island</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+
       </div>
     </div>
   </div>
@@ -68,27 +65,7 @@
   </div>
 </div>
 
-<hr>
-<div class="container">
-            <div class="row">
-              <div class="col-md-6 col-lg-4">
-                <div class="single_service projects">
-                    <!-- Single Service image -->
-                    <div class="single_service_img">
-                        <img src="img/madison-work-card.jpg" alt="">
-                    </div>
-                    <!-- Single Service title -->
-                    <div class="single_service_title">
-                        <h5 class="otherfont">Brokerage</h5>
-                    </div>
-                    <!-- Single Service content -->
-                    <div class="single_service_content">
-                        <p>We represent select ranch buyers, handling rigorous property searches, negotiations, due diligence, valuation analyses and more. As investors in and owners of conservation properties, we bring a unique perspective, set of opportunities and experiences to a ranch acquisition.</p>
-                        <br>
-                    </div>
-                </div>
-            </div>
-</div>
+
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
@@ -105,7 +82,7 @@
                     var select = $(e.relatedTarget);// Select that triggered the modal
                     var link = select.data('test.html'); //Our custom data which we want to pass to the modal body.
  
-                    $(this).find(".modal-body").load('test.html');//Pass the custom data to the modal body which is loading a link page.
+                    $(this).find(".modal-content").load('test.html');//Pass the custom data to the modal body which is loading a link page.
                 });
     });
     // Add an outcome to a document

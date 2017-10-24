@@ -70,6 +70,9 @@
         });
         $('.gallery_img.yellowstone-springs').magnificPopup({
             type: 'image',
+            image: {
+            titleSrc: 'Yellowstone Springs'
+            },
             gallery: {
                 enabled: true
             }
@@ -134,6 +137,36 @@
                 enabled: true
             }
         });
+        $('.gallery_img.teton').magnificPopup({
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+        $('.gallery_img.trails').magnificPopup({
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+        $('.gallery_img.basin').magnificPopup({
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+        $('.gallery_img.preserve').magnificPopup({
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+        $('.gallery_img.cake').magnificPopup({
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
     }
 
     // ScrollUp Active Code
@@ -164,13 +197,6 @@
             }
         });
     });
-
-    // Parallax active js
-    if ($.fn.jarallax) {
-        $('.jarallax').jarallax({
-            speed: 0.2
-        });
-    }
 
     // :: 8.0 MatchHeight Active Code
     if ($.fn.matchHeight) {
