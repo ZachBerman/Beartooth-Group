@@ -13,6 +13,29 @@
     padding: 0;
 }
 
+.floatleft {
+    float: left
+}
+
+.floatright {
+    float: right
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
 body {
     position: relative;
     overflow-x: hidden;
@@ -1516,7 +1539,7 @@ ol.breadcrumb {
 }
 
 .image_zoom_in>a:hover {
-    color: #27ae60;
+    color: #5F7183;
 }
 
 
@@ -1886,4 +1909,17 @@ select option {
 }
 #team {
     background: #f6f6f6;
+}
+.single_service.mobile {
+    padding:0;
+}
+.mobile-card-title {
+    text-align: center;
+    padding: 20px;
+    margin: -1px;
+    color: #fff;
+    background: #5F7183;
+}
+.mobile-card-p {
+    padding: 30px 15px 0px 15px;
 }
