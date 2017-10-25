@@ -1856,7 +1856,6 @@ select option {
     font-family: 'Dosis', serif;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 1199px)
     .section_padding_special {
         padding-top: 50px;
         padding-bottom: 70px;

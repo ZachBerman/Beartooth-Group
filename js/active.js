@@ -191,7 +191,7 @@
         var $grid = $('.gallery_full_width_images_area, .portfolio-column, .blog-masonary').isotope({
             itemSelector: '.single_gallery_item, .column_single_gallery_item, .sb_masonary_item',
             percentPosition: true,
-            filter: '.bigsprings',
+            filter: '.yellowstone-springs',
             masonry: {
                 columnWidth: '.single_gallery_item, .column_single_gallery_item, .sb_masonary_item'
             }
