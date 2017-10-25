@@ -1404,7 +1404,8 @@ ol.breadcrumb {
 .gallery_menu .portfolio-menu button.active,
 .gallery_menu .portfolio-menu button:focus {
     background: #5F7183;
-    color: #fff;
+    color: #000;
+    font-weight: 700;
     padding: 5px;
     border-radius: 0;
     border: 1px solid #5F7183;
