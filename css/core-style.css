@@ -1448,19 +1448,18 @@ ol.breadcrumb {
 
 .single_gallery_item .hover_overlay,
 .column_single_gallery_item .hover_overlay {
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 3px;
-    bottom: 15px;
-    height: calc(100% - 30px);
-    left: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 30px;
+    height: calc(100% - 60px);
+    left: 30px;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     position: absolute;
-    right: 15px;
-    top: 15px;
+    right: 30px;
+    top: 30px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    width: calc(100% - 30px);
+    width: calc(100% - 60px);
 }
 
 .single_gallery_item:hover .hover_overlay,
@@ -1542,6 +1541,19 @@ ol.breadcrumb {
     color: #5F7183;
 }
 
+.video_zoom_in {
+    position: absolute;
+    left: 15px;
+    z-index: 999;
+    bottom: 15px;
+}
+.video_zoom_in>a {
+    color: #2c3e50
+}
+
+.video_zoom_in>a:hover {
+    color: #5F7183;
+}
 
 /*
 * Gallery Details Area CSS
@@ -1763,7 +1775,7 @@ select option {
   padding: 0 15px;
   height: 80px;
   line-height: 80px;
-  width:70%;
+  width:76%;
 }
 
 .navbar-toggle {
@@ -1780,7 +1792,7 @@ select option {
     line-height: 27px;
   }
   .navbar-light .navbar-brand {
-    width: 70% !important;
+    width: 43% !important;
     }
 .navbar-brand img {
     max-width: 122%;
@@ -1895,14 +1907,14 @@ select option {
 .overlay-p {
     padding-left:20px;
     padding-right:20px;
+    color:#000;
 }
 .mrgn-30 {
     margin-bottom: 30px;
 }
 .close-button {
     margin-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 20px 100px 20px 100px;
 }
 .center {
     text-align: center;
