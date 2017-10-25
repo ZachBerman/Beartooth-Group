@@ -1069,10 +1069,10 @@ button.close {
 * Video Area CSS
 */
 
-.video_area {
+/*.video_area {
     position: relative;
     z-index: 1;
-}
+}*/
 
 .video_play_area>h3 {
     color: #fff;
