@@ -1949,6 +1949,9 @@ select option {
         font-size:10px;
     }
 }
+    .placeholder {
+        visibility: hidden !important;
+    }
 
 /*@media (max-width: 576px) {
     .current-full {
