@@ -58,6 +58,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .tablet-hide {
+        display:none;
+    }
     .agency_cool_facts .cool_fact_text {
         width: 50%
     }
@@ -127,7 +130,7 @@
     }
     .gallery_info p,
     .gallery_info h5 {
-        font-size: 14px
+        font-size: 12px
     }
     .minimalist_portfolio .message_title,
     .minimalist_portfolio .about_us_thumb {
