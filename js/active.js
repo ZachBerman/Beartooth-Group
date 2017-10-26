@@ -198,6 +198,49 @@
         });
     });
 
+    $(document).ready(function(){
+                $("#service_details_1").on("show.bs.modal", function(e) {
+                    var select = $(e.relatedTarget);
+                    var link = select.data('creek-restoration-modal.html');
+                    $(this).find(".modal-content").load('creek-restoration-modal.html'); 
+                });
+    });
+    $(document).ready(function(){
+                $("#service_details_2").on("show.bs.modal", function(e) {
+                    var select = $(e.relatedTarget);
+                    var link = select.data('river-restoration-modal.html');
+                    $(this).find(".modal-content").load('river-restoration-modal.html'); 
+                });
+    });
+    $(document).ready(function(){
+                $("#service_details_3").on("show.bs.modal", function(e) {
+                    var select = $(e.relatedTarget);
+                    var link = select.data('pond-wetland-restoration-modal.html');
+                    $(this).find(".modal-content").load('pond-wetland-restoration-modal.html'); 
+                });
+    });
+    $(document).ready(function(){
+                $("#service_details_4").on("show.bs.modal", function(e) {
+                    var select = $(e.relatedTarget);
+                    var link = select.data('agriculture-modal.html');
+                    $(this).find(".modal-content").load('agriculture-modal.html'); 
+                });
+    });
+    $(document).ready(function(){
+                $("#service_details_5").on("show.bs.modal", function(e) {
+                    var select = $(e.relatedTarget);
+                    var link = select.data('structure-modal.html');
+                    $(this).find(".modal-content").load('structure-modal.html'); 
+                });
+    });
+    $(document).ready(function(){
+                $("#service_details_6").on("show.bs.modal", function(e) {
+                    var select = $(e.relatedTarget);
+                    var link = select.data('reclamation-modal.html');
+                    $(this).find(".modal-content").load('reclamation-modal.html'); 
+                });
+    });
+
     // :: 8.0 MatchHeight Active Code
     if ($.fn.matchHeight) {
         $('.item').matchHeight();

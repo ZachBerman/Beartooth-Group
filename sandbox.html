@@ -75,14 +75,11 @@
     <!-- Bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
 <script>
-    // Add an outcome to a document
     $(document).ready(function(){
-        //Open modal from dropdown select.
                 $("#myModal").on("show.bs.modal", function(e) {
-                    var select = $(e.relatedTarget);// Select that triggered the modal
-                    var link = select.data('test.html'); //Our custom data which we want to pass to the modal body.
- 
-                    $(this).find(".modal-content").load('test.html');//Pass the custom data to the modal body which is loading a link page.
+                    var select = $(e.relatedTarget);
+                    var link = select.data('test.html');
+                    $(this).find(".modal-content").load('test.html'); 
                 });
     });
     // Add an outcome to a document
