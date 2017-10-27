@@ -70,9 +70,6 @@
         });
         $('.gallery_img.yellowstone-springs').magnificPopup({
             type: 'image',
-            image: {
-            titleSrc: 'Yellowstone Springs'
-            },
             gallery: {
                 enabled: true
             }
@@ -240,6 +237,7 @@
                     $(this).find(".modal-content").load('reclamation-modal.html'); 
                 });
     });
+
 
     // :: 8.0 MatchHeight Active Code
     if ($.fn.matchHeight) {
