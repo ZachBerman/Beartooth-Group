@@ -203,7 +203,8 @@ img {
 }
 
 .section_padding_100 {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom:100px;
 }
 
 .section_padding_100_0 {
