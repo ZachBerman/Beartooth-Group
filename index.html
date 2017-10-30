@@ -347,17 +347,17 @@
         </div>
 
         <div class="gallery_full_width_images_area clearfix">
+        <div id="container">
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
             <script type="text/javascript" charset="utf-8">
             $(function() {
                 $("img.lazy").lazyload({
-                    event : "delay"
                 });
             });
 
             $(window).bind("load", function() {
-                var timeout = setTimeout(function() { $("img.lazy").trigger("delay") }, 2000);
+                var timeout = setTimeout(function() { $("img.lazy").trigger("delay") }, 3000);
             });
             </script>
 
@@ -621,8 +621,8 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item littlewood">
-                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/mountain-scenic.jpg">
-                    <img class="lazy" data-original="img/gallery/little-wood-headwaters-ranch-idaho/mountain-scenic.jpg" alt="River through Big Springs in Idaho">
+                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/winter-frost.jpg">
+                    <img class="lazy" data-original="img/gallery/little-wood-headwaters-ranch-idaho/winter-frost.jpg" alt="River through Big Springs in Idaho">
                 </a>
             </div>
             <!-- Single gallery Item Start -->
@@ -657,7 +657,7 @@
                 </a>
             </div>
         </div>
-
+    </div>
         <div class="gallery-hidden" style="display:none;">
             <div class="single_gallery_item yellowstone-springs">
                 <a class="gallery_img yellowstone-springs" href="img/gallery/yellowstone-springs-ranch-montana/pond-with-swans.jpg">
@@ -939,8 +939,8 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item littlewood">
-                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/winter-frost.jpg">
-                    <img class="lazy" data-original="img/gallery/little-wood-headwaters-ranch-idaho/winter-frost.jpg" alt="River through Big Springs in Idaho">
+                <a class="gallery_img littlewood" href="img/gallery/little-wood-headwaters-ranch-idaho/mountain-scenic.jpg">
+                    <img class="lazy" data-original="img/gallery/little-wood-headwaters-ranch-idaho/mountain-scenic.jpg" alt="River through Big Springs in Idaho">
                 </a>
             </div>
             <!-- Single gallery Item Start -->

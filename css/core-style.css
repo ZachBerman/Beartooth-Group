@@ -338,7 +338,9 @@ img {
 .bg-gray {
     background-color: #f6f6f6 !important;
 }
-
+.bg-gray-dark {
+    background-color: #c3c3c3 !important;
+}
 .height_500 {
     height: 500px !important;
 }
@@ -1757,6 +1759,7 @@ select option {
 .card-hr {
     margin-right: 80%;
     border: 2px solid #D1CFCF;
+    background: #D1CFCF;
 }
 .slide-header {
     background: rgba(0, 0, 0, 0.47);

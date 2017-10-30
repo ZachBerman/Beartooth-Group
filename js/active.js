@@ -206,6 +206,8 @@
         });
     });
 
+
+
     $(document).ready(function(){
                 $("#service_details_1").on("show.bs.modal", function(e) {
                     var select = $(e.relatedTarget);
