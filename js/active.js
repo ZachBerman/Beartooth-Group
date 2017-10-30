@@ -70,96 +70,112 @@
         });
         $('.gallery_img.yellowstone-springs').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.bigsprings').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.fintail').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.tarryall').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.riverwhy').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.steelcreek').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.summit').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.madison').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.jefferson').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.clover').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.littlewood').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.teton').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.trails').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.basin').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.preserve').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.cake').magnificPopup({
             type: 'image',
+            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
