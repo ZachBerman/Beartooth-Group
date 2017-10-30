@@ -351,14 +351,15 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
             <script type="text/javascript" charset="utf-8">
-            $(function() {
-                $("img.lazy").lazyload({
+                $(function() {
+                    $("img.lazy").lazyload({
+                        event : "delayed"
+                    });
                 });
-            });
 
-            $(window).bind("load", function() {
-                var timeout = setTimeout(function() { $("img.lazy").trigger("delay") }, 3000);
-            });
+                $(window).bind("load", function() {
+                    var timeout = setTimeout(function() { $("img.lazy").trigger("delayed") }, 1000);
+                });
             </script>
 
             <div class="single_gallery_item yellowstone-springs">
