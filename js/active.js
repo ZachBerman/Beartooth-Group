@@ -166,6 +166,17 @@
         });
     }
 
+    // Touchswipe actions for magnific
+    $("body").swipe({
+            swipeRight: function(event, direction, distance, duration, fingerCount) {
+                $(".mfp-arrow-left").magnificPopup("prev");
+            },
+            swipeLeft: function() {
+                $(".mfp-arrow-right").magnificPopup("next");
+            },
+            threshold: 50
+        });
+
     // ScrollUp Active Code
     if ($.fn.scrollUp) {
         $.scrollUp({
