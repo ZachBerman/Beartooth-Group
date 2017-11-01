@@ -117,6 +117,10 @@ img {
     padding-top: 100px;
     padding-bottom: 70px;
 }
+.section_padding_70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 
 .bg-white {
     background-color: #fff;
@@ -515,7 +519,6 @@ footer h3 {
 .gallery_menu .portfolio-menu button:focus {
     background: #5F7183;
     color: #000;
-    font-weight: 700;
     padding: 5px;
     border-radius: 0;
     border: 1px solid #5F7183;
@@ -766,6 +769,9 @@ footer h3 {
     .mobile-pad {
         padding-top: 50px;
     }
+    .navbar {
+        padding: 0rem 1rem;
+    }
 }
 .dropdown-item:active {
     background-color: rgba(94, 112, 130, 0.13);
@@ -833,8 +839,11 @@ footer h3 {
     .gallery_info h5 {
         font-size:14px;
     }
+}
+@media (max-width: 575px) {
     .overlay-p {
         font-size: 10px;
+        line-height: 1;
     }
 }
     .placeholder {
@@ -898,6 +907,9 @@ input[type=number]::-webkit-outer-spin-button {
     .placeholder-special {
         visibility: hidden!important;
     }
+    .navbar-brand img {
+    max-width: 100%;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -905,7 +917,7 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 4px
     }
     .single_gallery_item {
-        width: 100%
+        width: 50%
     }
     .modal-dialog {
         width: 100% !important;
