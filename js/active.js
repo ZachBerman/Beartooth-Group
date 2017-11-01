@@ -70,14 +70,12 @@
         });
         $('.gallery_img.yellowstone-springs').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
         });
         $('.gallery_img.bigsprings').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
             }
