@@ -12,6 +12,9 @@
 body {
     position: relative;
 }
+body.noscroll {
+    overflow-y:hidden!important;
+}
 .headerfont {
     font-family: 'Playfair Display SC', serif;
 }
