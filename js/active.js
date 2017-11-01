@@ -66,7 +66,15 @@
             mainClass: 'mfp-fade',
             removalDelay: 160,
             preloader: true,
-            fixedContentPos: false
+            fixedContentPos: false,
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
+            }
         });
         $('.gallery_img.yellowstone-springs').magnificPopup({
             type: 'image',
