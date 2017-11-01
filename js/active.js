@@ -81,6 +81,7 @@
             gallery: {
                 enabled: true
             },
+            fixedContentPos: false,
             callbacks: {
                 open: function() {
                    jQuery('body').addClass('noscroll');
@@ -95,6 +96,7 @@
             gallery: {
                 enabled: true
             },
+            fixedContentPos: false,
             callbacks: {
                 open: function() {
                    jQuery('body').addClass('noscroll');
