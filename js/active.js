@@ -69,10 +69,10 @@
             fixedContentPos: false,
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -80,13 +80,13 @@
             type: 'image',
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -94,13 +94,13 @@
             type: 'image',
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -109,13 +109,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -124,13 +124,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -139,13 +139,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -154,13 +154,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -169,13 +169,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -184,13 +184,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -199,13 +199,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -214,13 +214,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -229,13 +229,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -244,13 +244,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -259,13 +259,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -274,13 +274,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -289,13 +289,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
@@ -304,13 +304,13 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            }
+            },
             callbacks: {
                 open: function() {
-                   jQuery('body').addClass('magnificpopupnoscroll');
+                   jQuery('body').addClass('noscroll');
                 },
                 close: function() {
-                   jQuery('body').removeClass('magnificpopupnoscroll');
+                   jQuery('body').removeClass('noscroll');
                 }
             }
         });
