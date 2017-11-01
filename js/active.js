@@ -81,11 +81,27 @@
             gallery: {
                 enabled: true
             }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
+            }
         });
         $('.gallery_img.bigsprings').magnificPopup({
             type: 'image',
             gallery: {
                 enabled: true
+            }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
             }
         });
         $('.gallery_img.fintail').magnificPopup({
@@ -94,12 +110,28 @@
             gallery: {
                 enabled: true
             }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
+            }
         });
         $('.gallery_img.tarryall').magnificPopup({
             type: 'image',
             fixedContentPos: false,
             gallery: {
                 enabled: true
+            }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
             }
         });
         $('.gallery_img.riverwhy').magnificPopup({
@@ -108,12 +140,28 @@
             gallery: {
                 enabled: true
             }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
+            }
         });
         $('.gallery_img.steelcreek').magnificPopup({
             type: 'image',
             fixedContentPos: false,
             gallery: {
                 enabled: true
+            }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
             }
         });
         $('.gallery_img.summit').magnificPopup({
@@ -122,12 +170,28 @@
             gallery: {
                 enabled: true
             }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
+            }
         });
         $('.gallery_img.madison').magnificPopup({
             type: 'image',
             fixedContentPos: false,
             gallery: {
                 enabled: true
+            }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
             }
         });
         $('.gallery_img.jefferson').magnificPopup({
@@ -136,12 +200,28 @@
             gallery: {
                 enabled: true
             }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
+            }
         });
         $('.gallery_img.clover').magnificPopup({
             type: 'image',
             fixedContentPos: false,
             gallery: {
                 enabled: true
+            }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
             }
         });
         $('.gallery_img.littlewood').magnificPopup({
@@ -150,12 +230,28 @@
             gallery: {
                 enabled: true
             }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
+            }
         });
         $('.gallery_img.teton').magnificPopup({
             type: 'image',
             fixedContentPos: false,
             gallery: {
                 enabled: true
+            }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
             }
         });
         $('.gallery_img.trails').magnificPopup({
@@ -164,12 +260,28 @@
             gallery: {
                 enabled: true
             }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
+            }
         });
         $('.gallery_img.basin').magnificPopup({
             type: 'image',
             fixedContentPos: false,
             gallery: {
                 enabled: true
+            }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
             }
         });
         $('.gallery_img.preserve').magnificPopup({
@@ -178,12 +290,28 @@
             gallery: {
                 enabled: true
             }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
+            }
         });
         $('.gallery_img.cake').magnificPopup({
             type: 'image',
             fixedContentPos: false,
             gallery: {
                 enabled: true
+            }
+            callbacks: {
+                open: function() {
+                   jQuery('body').addClass('magnificpopupnoscroll');
+                },
+                close: function() {
+                   jQuery('body').removeClass('magnificpopupnoscroll');
+                }
             }
         });
     }
