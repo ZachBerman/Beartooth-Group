@@ -273,13 +273,10 @@ $(function () {
             .done(function (response) {
                 // Make sure that the formMessages div has the 'success' class.
                 $(formMessages).removeClass('error');
+                $( ".submit" ).hide();
                 $(formMessages).addClass('success');
                 // Set the message text.
-                $(formMessages).text('Thanks! Message has been sent.');
-                // Clear the form.
-                $('#name').val('');
-                $('#email').val('');
-                $('#message').val('');
+                $(formMessages).text('Thank you, we will get back to you shortly.');
             })
             .fail(function (data) {
                 // Make sure that the formMessages div has the 'error' class.
@@ -289,7 +286,7 @@ $(function () {
                 if (data.responseText !== '') {
                     $(formMessages).text(data.responseText);
                 } else {
-                    $(formMessages).text('Oops! An error occured.');
+                    $(formMessages).text('Something went wrong, please try again.');
                 }
             });
     });

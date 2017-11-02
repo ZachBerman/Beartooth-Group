@@ -326,7 +326,8 @@
             swipeLeft: function() {
                 $(".mfp-arrow-right").magnificPopup("next");
             },
-            threshold: 50
+            threshold: 50,
+            excludedElements: '.noswipe'
         });
 
     // ScrollUp Active Code
