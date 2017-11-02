@@ -40,16 +40,16 @@
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
-            echo "Thanks! We'll get back to you shortly...";
+            echo "Thanks! We'll get back to you shortly.";
         } else {
             // Set a 500 (internal server error) response code.
             http_response_code(500);
-            echo "Oops! Something went wrong, please try again...";
+            echo "Something went wrong, please try again.";
         }
 
     } else {
         // Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
-        echo "Oops! Something went wrong, please try again";
+        echo "Something went wrong, please try again.";
     }
 ?>
