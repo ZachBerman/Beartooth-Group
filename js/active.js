@@ -1,6 +1,14 @@
 (function ($) {
     'use strict';
 
+    // Enable Tooltips
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+    $('.popover-dismiss').popover({
+        trigger: 'focus'
+    })
+
     // collapse mobile menu
     $(document).on('click','.navbar-collapse',function(e) {
     if( $(e.target).is('a') ) {
