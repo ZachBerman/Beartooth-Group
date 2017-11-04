@@ -564,17 +564,17 @@ footer h3 {
 
 .single_gallery_item .hover_overlay {
     background-color: rgba(255, 255, 255, 0.8);
-    bottom: 30px;
-    height: calc(100% - 60px);
-    left: 30px;
+    bottom: 20px;
+    height: calc(100% - 40px);
+    left: 20px;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     position: absolute;
-    right: 30px;
-    top: 30px;
+    right: 20px;
+    top: 20px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    width: calc(100% - 60px);
+    width: calc(100% - 40px);
 }
 
 .single_gallery_item:hover .hover_overlay,
@@ -744,6 +744,14 @@ footer h3 {
   height: 80px;
   line-height: 80px;
   width: 70%;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    background: rgba(94, 112, 130, 0.13);
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: rgba(94, 112, 130, 0.13);
+    color: #000;
+    font-family: 'Playfair Display SC', serif;
 }
 
 @media (min-width: 768px) {
@@ -984,7 +992,11 @@ input[type=number]::-webkit-outer-spin-button {
         display:none !important;
     }
 }
-
-.tooltip {
-    position: absolute!important;
+.popover-header {
+    background: rgba(94, 112, 130, 0.13);
+    font-family: 'Dosis', sans-serif;
+}
+.popover-body {
+    font-family: 'Dosis', sans-serif;
+    color: #000;
 }
