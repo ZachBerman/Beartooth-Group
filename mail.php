@@ -5,7 +5,7 @@
         
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
-        $subject = strip_tags(trim($_POST["subject"]));
+        $subjectmail = strip_tags(trim($_POST["subject"]));
         $number = strip_tags(trim($_POST["number"]));
         $name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
@@ -15,7 +15,7 @@
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
-            echo "Oops! Message Not Sent...";
+            echo "Message not sent, please make sure you've filled out all fields.";
             exit;
         }
 
@@ -24,12 +24,12 @@
         $recipient = "zberms@gmail.com";
 
         // Set the email subject.
-        $subject = "New Message from $name";
+        $subject = "Beartooth Group Contact Form Inquiry";
 
         // Build the email content.
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
-        $email_content .= "Subject: $subject\n\n";
+        $email_content .= "Subject: $subjectmail\n\n";
         $email_content .= "Number: $number\n\n";
         $email_content .= "Message:\n$message\n";
 

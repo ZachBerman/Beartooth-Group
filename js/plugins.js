@@ -256,8 +256,10 @@ this},r._applyDataApi=function(){var e={};t("[data-match-height], [data-mh]").ea
 $(function () {
     // Get the form.
     var form = $('#main_contact_form');
+    var submit = $('.submit');
     // Get the messages div.
     var formMessages = $('#success_fail_info');
+    var loadingMessage = $('#loading_info')
     // Set up an event listener for the contact form.
     $(form).submit(function (e) {
         // Stop the browser from submitting the form.
@@ -268,20 +270,31 @@ $(function () {
         $.ajax({
                 type: 'POST',
                 url: $(form).attr('action'),
-                data: formData
+                data: formData,
+                beforeSend: function() {
+                                            //$contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+                                            $( ".submit" ).hide();
+                                            $(loadingMessage).addClass('loading');
+                // Set the message text.
+                // $(formMessages).text('Sending...');
+                                    }
             })
+
             .done(function (response) {
                 // Make sure that the formMessages div has the 'success' class.
+                $(loadingMessage).removeClass('loading');
                 $(formMessages).removeClass('error');
                 $( ".submit" ).hide();
                 $(formMessages).addClass('success');
                 // Set the message text.
-                $(formMessages).text('Thank you, we will get back to you shortly.');
+                $(formMessages).text('   Thank you, we will get back to you shortly.');
             })
             .fail(function (data) {
                 // Make sure that the formMessages div has the 'error' class.
                 $(formMessages).removeClass('success');
+                $(loadingMessage).removeClass('loading');
                 $(formMessages).addClass('error');
+                $( ".submit" ).show();
                 // Set the message text.
                 if (data.responseText !== '') {
                     $(formMessages).text(data.responseText);
