@@ -164,6 +164,28 @@ img {
     z-index: 1;
 }
 
+.section_heading_special {
+    position: relative;
+    z-index: 1;
+}
+.section_heading_special>h2 {
+    color: #5F7183;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family:'Playfair Display SC', serif;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.section_heading_special>h5 {
+    color: #2c3e50;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-family:'Playfair Display SC', serif;
+}
+
 .section_heading>h2 {
     color: #5F7183;
     margin-bottom: 50px;
@@ -187,7 +209,7 @@ img {
 
 .welcome_area {
     overflow: hidden;
-    background: url('../img/yellowstone-overlook.jpg') no-repeat center center;
+    background: url('../img/TEST.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -906,7 +928,7 @@ footer h3 {
 @media (min-width: 1920px) {
     .welcome_area {
     overflow: hidden;
-    background: url('../img/yellowstone-overlook-xl.jpg') no-repeat center center;
+    background: url('../img/TEST.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -956,12 +978,15 @@ footer h3 {
         visibility: hidden !important;
     }
 
-input[type=number]::-webkit-inner-spin-button, 
+/*input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     margin: 0; 
+}*/
+input[type=number] {
+/*-moz-appearance: textfield;*/
 }
 
     .section_padding_special {

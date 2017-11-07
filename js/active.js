@@ -73,180 +73,72 @@
             type: 'iframe',
             mainClass: 'mfp-fade',
             removalDelay: 160,
-            preloader: true,
-            fixedContentPos: false,
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
-            }
+            preloader: true
         });
         $('.gallery_img.yellowstone-springs').magnificPopup({
             type: 'image',
             gallery: {
                 enabled: true
-            },
-            fixedContentPos: false,
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.bigsprings').magnificPopup({
             type: 'image',
             gallery: {
                 enabled: true
-            },
-            fixedContentPos: false,
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.fintail').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.tarryall').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.riverwhy').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.steelcreek').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.summit').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.madison').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.jefferson').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.clover').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.littlewood').magnificPopup({
             type: 'image',
-            fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.teton').magnificPopup({
@@ -254,14 +146,6 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.trails').magnificPopup({
@@ -269,14 +153,6 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.basin').magnificPopup({
@@ -284,14 +160,6 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.preserve').magnificPopup({
@@ -299,14 +167,6 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
         $('.gallery_img.cake').magnificPopup({
@@ -314,29 +174,21 @@
             fixedContentPos: false,
             gallery: {
                 enabled: true
-            },
-            callbacks: {
-                open: function() {
-                   jQuery('body').addClass('noscroll');
-                },
-                close: function() {
-                   jQuery('body').removeClass('noscroll');
-                }
             }
         });
     }
 
     // Touchswipe actions for magnific
-    $("body").swipe({
-            swipeRight: function(event, direction, distance, duration, fingerCount) {
-                $(".mfp-arrow-left").magnificPopup("prev");
-            },
-            swipeLeft: function() {
-                $(".mfp-arrow-right").magnificPopup("next");
-            },
-            threshold: 50,
-            excludedElements: '.noswipe'
-        });
+    // $("body").swipe({
+    //         swipeRight: function(event, direction, distance, duration, fingerCount) {
+    //             $(".mfp-arrow-left").magnificPopup("prev");
+    //         },
+    //         swipeLeft: function() {
+    //             $(".mfp-arrow-right").magnificPopup("next");
+    //         },
+    //         threshold: 50,
+    //         excludedElements: '.noswipe'
+    //     });
 
     // ScrollUp Active Code
     if ($.fn.scrollUp) {
