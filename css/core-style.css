@@ -183,7 +183,7 @@ img {
     text-transform: capitalize;
     margin-bottom: 50px;
     font-weight: 500;
-    font-family:'Playfair Display SC', serif;
+    font-family:'Dosis', serif;
 }
 
 .section_heading>h2 {
@@ -219,7 +219,7 @@ img {
 @media (max-width: 767px) {
     .welcome_area {
     overflow: hidden;
-    background: url('../img/yellowstone-overlook-mobile.jpg') no-repeat center center;
+    background: url('../img/TEST-mobile.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -228,7 +228,7 @@ img {
 }
 .header-box {
     margin-top: 250px;
-    background: rgba(0, 0, 0, 0.33);
+    background: rgba(0, 0, 0, 0.40);
     border-radius: 0;
     color: #fff;
     padding: 20px;
