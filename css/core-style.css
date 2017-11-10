@@ -209,7 +209,7 @@ img {
 
 .welcome_area {
     overflow: hidden;
-    background: url('../img/TEST.jpg') no-repeat center center;
+    background: url('../img/teton-timbers-sunset.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -219,7 +219,7 @@ img {
 @media (max-width: 767px) {
     .welcome_area {
     overflow: hidden;
-    background: url('../img/TEST-mobile.jpg') no-repeat center center;
+    background: url('../img/teton-timbers-sunset-mobile.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -228,7 +228,7 @@ img {
 }
 .header-box {
     margin-top: 250px;
-    background: rgba(0, 0, 0, 0.40);
+    background: rgba(0, 0, 0, 0.55);
     border-radius: 0;
     color: #fff;
     padding: 20px;
@@ -928,7 +928,7 @@ footer h3 {
 @media (min-width: 1920px) {
     .welcome_area {
     overflow: hidden;
-    background: url('../img/TEST.jpg') no-repeat center center;
+    background: url('../img/teton-timbers-xl.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
