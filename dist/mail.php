@@ -21,7 +21,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "zberms@gmail.com";
+        $recipient = "info@beartoothgroup.com";
 
         // Set the email subject.
         $subject = "Beartooth Group Contact Form Inquiry";
