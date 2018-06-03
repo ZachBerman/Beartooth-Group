@@ -12,8 +12,17 @@ body {
 body.noscroll {
     overflow-y: hidden!important;
 }
+@media (min-width: 1200px) {
+.container {
+    max-width: 1340px;
+    }
+}
 .headerfont {
     font-family: 'Playfair Display SC', serif;
+}
+.icon-header {
+    font-family: 'Playfair Display SC', serif;
+    color: #5F7183;
 }
 .otherfont {
     font-family: 'Dosis', sans-serif;
@@ -31,6 +40,9 @@ p {
     font-size: 1em;
     line-height: 1.5;
     font-family: 'Dosis', sans-serif;
+}
+.large-font-p {
+    font-size: 1.1em;
 }
 a:focus {
     outline: 0px solid;
@@ -56,7 +68,7 @@ ul {
     margin: 0;
 }
 ul li {
-    list-style: outside none none;
+    /*list-style: outside none none;*/
 }
 img {
     height: auto;
@@ -104,6 +116,9 @@ img {
 .section_padding_70 {
     padding-top: 70px;
     padding-bottom: 70px;
+}
+.mrgn-btm-50 {
+    margin-bottom: 50px;
 }
 .bg-white {
     background-color: #fff;
@@ -253,7 +268,6 @@ img {
     transition-duration: 500ms;
 }
 .single_service.projects {
-    background-color: #fff;
     border: 1px solid #ddd;
     margin-bottom: 30px;
     padding: 5px;
@@ -693,6 +707,10 @@ footer h3 {
     border-radius: 0;
     border: none;
 }
+.btn-primary.modal-open {
+    padding:20px;
+    margin-top: 30px;
+}
 .btn-primary:hover,
 .btn-primary:focus {
     background: #5F7183;
@@ -962,4 +980,52 @@ input[type=number] {
 .popover-body {
     font-family: 'Dosis', sans-serif;
     color: #000;
+}
+.icon {
+    margin-bottom: 20px;
+    max-width: 75%;
+}
+.icon-header-mrgn {
+    margin-bottom:25px;
+}
+/*tabs*/
+.tab-content {
+    margin-top: 20px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background: rgba(94, 112, 130, 0.13);
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    font-size: 1.0em;
+    font-family: 'Playfair Display SC', serif;
+}
+.nav-tabs .nav-link {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/*blockquote*/
+blockquote {
+    font-family: 'dosis', sans-serif;
+    border-left: none
+}
+
+.inner-block {
+    overflow: hidden;
+    border-radius: 0;
+    background-color: rgba(94, 112, 130, 0.13);
+    margin-top: 25px;
+    color:  white;
+    padding: 20px;
+}
+
+.block-text {
+    /*font-size: 19px;*/
+    margin-top: 13px;
+}
+.fa-quote-right:before {
+    color: #555;
+}
+.pad-top {
+    padding-top: 50px;
 }
