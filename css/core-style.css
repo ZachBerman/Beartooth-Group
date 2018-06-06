@@ -709,7 +709,6 @@ footer h3 {
     border: none;
 }
 .btn-primary.modal-open {
-    padding:20px;
     margin-top: 30px;
 }
 .btn-primary:hover,
@@ -717,6 +716,9 @@ footer h3 {
     background: #5F7183;
     border-color: 1px solid #5F7183;
     box-shadow: none;
+}
+.btn-pad {
+    padding: 17.79px;
 }
 .navbar {
     min-height: 80px;
