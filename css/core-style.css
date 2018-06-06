@@ -41,6 +41,9 @@ p {
     line-height: 1.5;
     font-family: 'Dosis', sans-serif;
 }
+.mid-font-p {
+    font-size: 1.1em;
+}
 .large-font-p {
     font-size: 1.3em;
 }
