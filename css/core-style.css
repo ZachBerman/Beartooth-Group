@@ -1010,8 +1010,13 @@ input[type=number] {
     border-top-right-radius: 0;
 }
 .tab-font {
-    font-size: 1.1em;
+    /*font-size: 1.1em;*/
+    font-family: 'dosis', sans-serif;
     list-style-type: square;
+    color: #555;
+}
+.tab-header {
+    color: #5F7183;
 }
 /*blockquote*/
 blockquote {
@@ -1037,4 +1042,36 @@ blockquote {
 }
 .pad-top {
     padding-top: 50px;
+}
+/*carousel*/
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.55);
+    right: 30%;
+    left: 30%;
+    padding: 10px;
+}
+.caption-h5 {
+    margin:0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 75px;
+  width: 75px;
+  outline: black;
+  background-size: 100%, 100%;
+  background: rgba(0, 0, 0, 0.55);
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 43px;
+  color: #fff;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 43px;
+  color: #fff;
 }
