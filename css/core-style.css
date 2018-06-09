@@ -707,6 +707,7 @@ footer h3 {
     background: #2c3e50;
     border-radius: 0;
     border: none;
+    padding: 10px 30px
 }
 .btn-primary.modal-open {
     margin-top: 30px;
