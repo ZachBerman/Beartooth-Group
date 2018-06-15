@@ -592,6 +592,9 @@ footer h3 {
 .video_zoom_in>a:hover {
     color: #5F7183;
 }
+.video_zoom_in.link {
+    margin-left: 41.5%;
+}
 /*
 * Gallery Details Area CSS
 */
@@ -894,7 +897,7 @@ footer h3 {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 .overlay-p {
-        font-size: 12px;
+        font-size: 10px;
         line-height: 1;
     }
 .placeholder {
