@@ -208,6 +208,13 @@ img {
         -o-background-size: cover;
         background-size: cover;
     }
+    .container-special {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pad-top-50 {
+        padding-top: 50px;
+    }
 }
 .header-box {
     margin-top: 250px;
@@ -889,6 +896,7 @@ footer h3 {
     }
 .placeholder {
     visibility: hidden !important;
+    }
 }
 /*input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
@@ -978,12 +986,12 @@ input[type=number] {
         width: 50%;
     }
 }
-@media (max-width: 767px) {
+@media (min-width: 991px) {
     .placeholder-tablet-only {
         display: none !important;
     }
 }
-@media (min-width: 991px) {
+@media (max-width: 767px) {
     .placeholder-tablet-only {
         display: none !important;
     }
