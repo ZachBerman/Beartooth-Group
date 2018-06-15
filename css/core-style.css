@@ -215,6 +215,9 @@ img {
     .pad-top-50 {
         padding-top: 50px;
     }
+    .icon-header-mobile {
+        margin-bottom:25px;
+    }
 }
 .header-box {
     margin-top: 250px;
@@ -1093,5 +1096,28 @@ blockquote {
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 43px;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 25px;
+  width: 25px;
+  outline: black;
+  background-size: 100%, 100%;
+  background: rgba(0, 0, 0, 0.55);
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 16px;
+  color: #fff;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 16px;
   color: #fff;
 }
