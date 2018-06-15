@@ -1100,24 +1100,31 @@ blockquote {
 }
 
 @media (max-width: 767px) {
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 25px;
-  width: 25px;
-  outline: black;
-  background-size: 100%, 100%;
-  background: rgba(0, 0, 0, 0.55);
-  background-image: none;
-}
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 16px;
-  color: #fff;
-}
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 25px;
+      width: 25px;
+      outline: black;
+      background-size: 100%, 100%;
+      background: rgba(0, 0, 0, 0.55);
+      background-image: none;
+    }
+    .carousel-control-next-icon:after
+    {
+      content: '>';
+      font-size: 16px;
+      color: #fff;
+    }
 
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 16px;
-  color: #fff;
+    .carousel-control-prev-icon:after {
+      content: '<';
+      font-size: 16px;
+      color: #fff;
+    }   
+    .carousel-indicators {
+        bottom: -5px;
+    }
+    .carousel-indicators li {
+        width: 15px;
+    }
 }
