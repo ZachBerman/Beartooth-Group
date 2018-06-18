@@ -1151,5 +1151,10 @@ blockquote {
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms;
         width: calc(100% - 10px);
+    }
 }
+@media (min-width: 1224px) {
+    .placeholder-large {
+        display: none !important;
+    }
 }
